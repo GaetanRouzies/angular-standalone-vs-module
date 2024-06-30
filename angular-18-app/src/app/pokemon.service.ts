@@ -49,6 +49,48 @@ export class PokemonService {
         type: ['Feu', 'Vol'],
         imageUrl: this.getPokemonImage(6),
         description: 'Quand Dracaufeu s’énerve réellement, la flamme au bout de sa queue devient bleue.'
+      },
+      {
+        id: 7,
+        name: 'Carapuce',
+        type: ['Eau'],
+        imageUrl: this.getPokemonImage(7),
+        description: 'La carapace de Carapuce ne sert pas qu’à le protéger. La forme ronde de sa carapace et ses rainures lui permettent d’être hydrodynamique.'
+      },
+      {
+        id: 8,
+        name: 'Carabaffe',
+        type: ['Eau'],
+        imageUrl: this.getPokemonImage(8),
+        description: 'Carabaffe a une queue longue et robuste qui lui sert de fouet, et un canon à eau qui expulse des jets d’eau avec une force surprenante.'
+      },
+      {
+        id: 9,
+        name: 'Tortank',
+        type: ['Eau'],
+        imageUrl: this.getPokemonImage(9),
+        description: 'Tortank est un Pokémon très intelligent. Si quelque chose l’intrigue, il l’inspecte en le mordant.'
+      },
+      {
+        id: 10,
+        name: 'Chenipan',
+        type: ['Insecte'],
+        imageUrl: this.getPokemonImage(10),
+        description: 'Chenipan est doté d’un odorat extrêmement développé. Il est capable de détecter les feuilles dont il se nourrit, même si elles sont à plus de 1 km.'
+      },
+      {
+        id: 11,
+        name: 'Chrysacier',
+        type: ['Insecte'],
+        imageUrl: this.getPokemonImage(11),
+        description: 'Chrysacier durcit son corps pour se protéger. Cependant, s’il est touché par une attaque physique, il devient mou.'
+      },
+      {
+        id: 12,
+        name: 'Papilusion',
+        type: ['Insecte', 'Vol'],
+        imageUrl: this.getPokemonImage(12),
+        description: 'Papilusion est très populaire auprès des collectionneurs de Pokémon pour la beauté de ses ailes aux motifs chatoyants.'
       }
     ];
   }
